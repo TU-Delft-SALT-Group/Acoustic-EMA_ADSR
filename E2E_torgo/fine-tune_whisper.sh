@@ -5,7 +5,7 @@ set -e
 set -u
 set -o pipefail
 
-istage=2
+stage=2
 stop_stage=13
 train_set=torgo_train
 valid_set=torgo_dev
