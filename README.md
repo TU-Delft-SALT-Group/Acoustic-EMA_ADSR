@@ -84,7 +84,7 @@ python ./tools/concat_acoustic-ema.py   --audio_feats_scp extracted_feats_scp/wh
                                         --output_ark /path/to/Whisper_large_ema_feats.ark
 ```
 
-Use the concatenated feats.scp to train the Conformer model. Note: please modify the feature input size in ../conf/tuning/train_asr_conformer_extracted.yaml accordingly.
+Use the concatenated feats.scp to train the Conformer model. Note: please modify the feature input size in ./conf/tuning/train_asr_conformer_extracted.yaml accordingly.
 
 ```bash
 
